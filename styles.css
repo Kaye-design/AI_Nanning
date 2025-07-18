@@ -470,6 +470,26 @@ body {
     color: #00d4ff;
 }
 
+.news-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.news-link {
+    color: #b0c4de;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 0.3rem 0;
+    border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+}
+
+.news-link:hover {
+    color: #00d4ff;
+    border-bottom-color: #00d4ff;
+}
+
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;
