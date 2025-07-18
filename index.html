@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025東盟婦女論壇</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 導航欄 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">匯聚“她力量”，香港廣西婦女聯會共赴數智之約</span>
+                <span class="logo-dot"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 輪播圖區域 -->
+    <section id="home" class="hero-section">
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-slide active">
+                    <img src="images/slide1.jpg" alt="科技圖片 1">
+                    <div class="slide-content">
+                        <h2>未來科技</h2>
+                        <p>探索無限可能</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/slide2.jpg" alt="科技圖片 2">
+                    <div class="slide-content">
+                        <h2>智能創新</h2>
+                        <p>引領技術潮流</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/slide3.jpg" alt="科技圖片 3">
+                    <div class="slide-content">
+                        <h2>數位轉型</h2>
+                        <p>重塑商業模式</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/slide4.jpg" alt="科技圖片 4">
+                    <div class="slide-content">
+                        <h2>雲端運算</h2>
+                        <p>無邊界連接</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/slide5.jpg" alt="科技圖片 5">
+                    <div class="slide-content">
+                        <h2>人工智慧</h2>
+                        <p>智慧新時代</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/slide6.jpg" alt="科技圖片 6">
+                    <div class="slide-content">
+                        <h2>物聯網</h2>
+                        <p>萬物互聯</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/slide7.jpg" alt="科技圖片 7">
+                    <div class="slide-content">
+                        <h2>區塊鏈</h2>
+                        <p>去中心化未來</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/slide8.jpg" alt="科技圖片 8">
+                    <div class="slide-content">
+                        <h2>5G技術</h2>
+                        <p>超高速連接</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 輪播圖控制按鈕 -->
+            <button class="carousel-btn prev-btn" onclick="changeSlide(-1)">
+                <span>&#10094;</span>
+            </button>
+            <button class="carousel-btn next-btn" onclick="changeSlide(1)">
+                <span>&#10095;</span>
+            </button>
+            
+            <!-- 輪播圖指示器 -->
+            <div class="carousel-indicators">
+                <span class="indicator active" onclick="currentSlide(1)"></span>
+                <span class="indicator" onclick="currentSlide(2)"></span>
+                <span class="indicator" onclick="currentSlide(3)"></span>
+                <span class="indicator" onclick="currentSlide(4)"></span>
+                <span class="indicator" onclick="currentSlide(5)"></span>
+                <span class="indicator" onclick="currentSlide(6)"></span>
+                <span class="indicator" onclick="currentSlide(7)"></span>
+                <span class="indicator" onclick="currentSlide(8)"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 文字內容區域 -->
+    <section class="content-section">
+        <div class="container">
+            <div class="content-grid">
+                <div class="content-text">
+                    <h2 class="section-title">科技創新引領未來</h2>
+                    <p class="section-description">
+                        在這個快速發展的數位時代，科技已經成為推動社會進步的核心動力。我們致力於探索前沿技術，為客戶提供創新的解決方案。
+                    </p>
+                    
+                    <div class="feature-grid">
+                        <div class="feature-item">
+                            <div class="feature-icon">🚀</div>
+                            <h3>快速部署</h3>
+                            <p>採用最新的雲端技術，實現快速部署和擴展，讓您的業務迅速上線。</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🔒</div>
+                            <h3>安全可靠</h3>
+                            <p>多重安全防護機制，確保您的數據和系統安全無虞。</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">⚡</div>
+                            <h3>高效能</h3>
+                            <p>優化的架構設計，提供卓越的效能表現和用戶體驗。</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🌐</div>
+                            <h3>全球連接</h3>
+                            <p>覆蓋全球的網絡基礎設施，實現無縫的國際化服務。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stats-section">
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">成功案例</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">99.9%</div>
+                            <div class="stat-label">系統可用性</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">技術支援</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">國家服務</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 視頻區域 -->
+                <div class="video-section">
+                    <div class="video-container">
+                        <h3 class="video-title">2025面嚮東盟婦女發展交流論壇</h3>
+                        <div class="video-wrapper">
+                            <video id="mainVideo" controls preload="metadata">
+                                <source src="videos/demo.mp4" type="video/mp4">
+                                <source src="videos/demo.webm" type="video/webm">
+                                您的瀏覽器不支援視頻播放。
+                            </video>
+                            <div class="video-overlay">
+                                <div class="play-button" onclick="playVideo()">
+                                    <span>▶</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="video-description">
+                            文藝匯演片段展示
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁腳 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>聯絡我們</h4>
+                    <p>📍 香港廣西婦女聯會</p>
+                </div>
+                <div class="footer-section">
+                    <h4>近期活動</h4>
+                    <ul>
+                        <li>慶祝香港回歸祖國28周年《花開中國》傳唱活動(2025年7月</li>
+                        <li>桂湘粵港澳“家”文化交流活動（2025年6月）</li>
+                        <li>廣西文化藝術交流暨粵語尋根之旅（2025年4月）</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>關注我們</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">微信影音號“香港廣西婦女聯會”</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 香港廣西婦女聯會版權所有.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

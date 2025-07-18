@@ -1,0 +1,25 @@
+圖片文件說明
+
+請將您的10張科技主題圖片放入此文件夾，並命名為：
+- slide1.jpg
+- slide2.jpg
+- slide3.jpg
+- slide4.jpg
+- slide5.jpg
+- slide6.jpg
+- slide7.jpg
+- slide8.jpg
+- slide9.jpg
+- slide10.jpg
+
+建議圖片規格：
+- 尺寸：1920x1080 或更高
+- 格式：JPG、PNG
+- 主題：科技、創新、數位化、人工智慧、雲端運算等相關內容
+
+如果您沒有圖片，可以使用以下免費圖片網站：
+- Unsplash (unsplash.com)
+- Pexels (pexels.com)
+- Pixabay (pixabay.com)
+
+搜索關鍵詞：technology, innovation, digital, artificial intelligence, cloud computing, data center, etc. 
