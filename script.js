@@ -11,6 +11,13 @@ function initCarousel() {
     showSlide(currentSlide);
     startAutoSlide();
     
+    // 綁定指示器點擊事件
+    indicators.forEach((indicator, idx) => {
+        indicator.addEventListener('click', function() {
+            goToSlide(idx);
+        });
+    });
+    
     // 添加觸控支援
     let startX = 0;
     let endX = 0;
@@ -79,8 +86,8 @@ function changeSlide(direction) {
 }
 
 // 直接跳轉到指定幻燈片
-function currentSlide(n) {
-    showSlide(n - 1);
+function goToSlide(n) {
+    showSlide(n);
     resetAutoSlide();
 }
 
