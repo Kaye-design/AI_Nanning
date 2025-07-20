@@ -135,6 +135,27 @@ function playVideo() {
     }
 }
 
+// 1分鐘演示視頻播放功能
+function playDemoVideo() {
+    const video = document.getElementById('demoVideo');
+    const overlay = document.getElementById('demoOverlay');
+    
+    if (video && overlay) {
+        video.play();
+        overlay.classList.add('hidden');
+        
+        // 當視頻暫停時顯示播放按鈕
+        video.addEventListener('pause', () => {
+            overlay.classList.remove('hidden');
+        });
+        
+        // 當視頻結束時顯示播放按鈕
+        video.addEventListener('ended', () => {
+            overlay.classList.remove('hidden');
+        });
+    }
+}
+
 // 平滑滾動功能
 function initSmoothScroll() {
     const navLinks = document.querySelectorAll('.nav-menu a[href^="#"]');
